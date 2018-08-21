@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gasp9k</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<section class="intro">
+		<div class="inner">
+			<div class="content">
+			<nav class="navbar">
+			<span class="open-slide">
+				<a href="#" onclick="openSlideMenu()">
+					<svg width="30" height="30">
+						<path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+						<path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+						<path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+					</svg>
+				</a>
+			</span>
+			</nav>
+
+			<div id="side-menu" class="side-nav">
+				<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+				<a href="#">projects</a>
+				<a href="#">about</a>
+				<a href="#">contact</a>
+			</div>
+				<h1>gasp9k</h1>
+				<a class="btn" href="#section-a">About</a>
+			</div>
+		</div>
+	</section>
+	<section id="section-a">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit urna turpis, vel finibus erat efficitur at. Nullam auctor vitae est vel vestibulum. Pellentesque metus mi, fermentum sed placerat id, iaculis sit amet arcu. Nullam porttitor molestie est, a laoreet felis lobortis sed. Morbi efficitur magna eu nibh condimentum, eu dapibus mauris fermentum. Integer lorem nunc, egestas in elit eu, mollis malesuada purus. Proin lobortis libero eget rutrum volutpat. Praesent faucibus neque in dolor sollicitudin, eu cursus ex vulputate. Mauris varius, lacus ac congue consequat, nisl justo porta purus, at auctor leo nibh at metus. In condimentum, arcu nec varius dignissim, lacus arcu mattis augue, eu cursus leo libero at velit. Ut dapibus ante eu nulla vehicula, et dapibus arcu molestie.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit urna turpis, vel finibus erat efficitur at. Nullam auctor vitae est vel vestibulum. Pellentesque metus mi, fermentum sed placerat id, iaculis sit amet arcu. Nullam porttitor molestie est, a laoreet felis lobortis sed. Morbi efficitur magna eu nibh condimentum, eu dapibus mauris fermentum. Integer lorem nunc, egestas in elit eu, mollis malesuada purus. Proin lobortis libero eget rutrum volutpat. Praesent faucibus neque in dolor sollicitudin, eu cursus ex vulputate. Mauris varius, lacus ac congue consequat, nisl justo porta purus, at auctor leo nibh at metus. In condimentum, arcu nec varius dignissim, lacus arcu mattis augue, eu cursus leo libero at velit. Ut dapibus ante eu nulla vehicula, et dapibus arcu molestie.</p>
+	</section>
+
+	<footer>
+		<p id="footer-a">gasp9k &copy; 2018</p>
+	</footer>
+
+	<script>
+		function openSlideMenu(){
+			document.getElementById('side-menu').style.width = '250px';
+			document.getElementById('main').style.marginLeft = '250px';
+		}
+
+		function closeSlideMenu(){
+			document.getElementById('side-menu').style.width = '0';
+			document.getElementById('main').style.marginLeft = '0';
+		}
+	</script>
+
+</body>
+</html>
